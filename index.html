@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS  link-->
+    
+     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+    <title>Drowpdown</title>
+  </head>
+  <body>
+    
+<!-- Example single danger button -->
+<div class="btn-group">
+  <!-- Dropdown-->
+
+<div class="dropdown">
+  <button class="btn btn-info dropdown-toggle" id="dropdownMenuButton" type="button"data-bs-toggle="dropdown"eria-expanded="false"> Dropdwon Button</button>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li> <a class="dropdown-item"  href="#"> Action </a></li>
+    <li> <a class="dropdown-item" href="#"> Another action </a></li>
+    <li> <hr class="dropdown-divider"> </li>
+    <li> <a class="dropdown-item" href="#"> Another something else for ur satisfaction</a></li>
+  </ul>
+</div>
+</div>
+
+<br><br>
+<!-- Example split danger button -->
+<div class="btn-group">
+<button type="button" class="btn btn-danger" > Action </button>
+<button type="button"  class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+  <span class="visually-hidden"> dropdwon-toggle</span>
+</button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<br><br>
+
+<div class="dropdown">
+  <button class="btn btn-info dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown1">
+    <li><a class="dropdown-item " href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item active" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<br><br>
+
+
+<div class="d-flex">
+  <div class="dropdown me-1">
+    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOff" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+      Offset
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuOff">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-secondary">Reference</button>
+    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuRef" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuRef">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+</div>
+  <br>
+  <!-- list group-->
+  <div class="container">
+<ul class="list-group">
+  <li class="list-group-item" arria-current="true">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+  <li class="list-group-item">Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+  <li class="list-group-item"> Lorem, ipsum, dolor.</li>
+  <li class="list-group-item">Lorem ipsum dolor sit amet consectetur.</li>
+</ul>
+   </div>  
+    <br>
+
+     <div class="container">
+<ul class="list-group list-group-flush">
+  <li class="list-group-item" arria-current="true">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+  <li class="list-group-item">Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+  <li class="list-group-item"> Lorem, ipsum, dolor.</li>
+  <li class="list-group-item">Lorem ipsum dolor sit amet consectetur.</li>
+</ul>
+   </div> 
+   <br> 
+   <div class="container">
+   <ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Cras justo odio
+    <span class="badge bg-info rounded-pill">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Dapibus ac facilisis in
+    <span class="badge bg-primary rounded-pill">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Morbi leo risus
+    <span class="badge bg-primary rounded-pill">1</span>
+  </li>
+</ul>
+</div>
+<br>
+<!-- custom content-->
+
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-6">
+  
+ <div class="list-group">
+   <a href="#" class="list-group-item list-group-item-action active ">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Lorem ipsum, dolor sit.</h5>
+       <small> 3 days ago</small>
+     </div>
+     <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, accusamus labore quod id.</p>
+     <small class="text-muted"> Lorem ipsum dolor sit amet.</small>
+   </a>
+ </div>
+
+<div class="list-group">
+   <a href="#" class="list-group-item list-group-item-action ">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Lorem ipsum, dolor sit.</h5>
+       <small> 3 days ago</small>
+     </div>
+     <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, accusamus labore quod id.</p>
+     <small class="text-muted"> Lorem ipsum dolor sit amet.</small>
+   </a>
+ </div>
+
+<div class="list-group">
+   <a href="#" class="list-group-item list-group-item-action">
+     <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Lorem ipsum, dolor sit.</h5>
+       <small> 3 days ago</small>
+     </div>
+     <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, accusamus labore quod id.</p>
+     <small class="text-muted"> Lorem ipsum dolor sit amet.</small>
+   </a>
+ </div>
+  </div>
+  </div>
+ </div>  
+ <br><br>
+
+
+ <!-- custom  modal-->
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examp2">
+   Launch demo modal
+ </button>
+
+ <div class="modal fade" id="examp2" tabindex="-1" aria-labelledby="label2" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="label2">Modal title</h5>
+         <button type="button" class="btn-close"data-bs-dismiss="modal" aria-label="close"></button>
+       </div>
+       <div class="modal-body">
+         <p>Woohoo, you're reading this text in a modal!</p>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Cumque deserunt obcaecati delectus iusto sequi iste, est consectetur laboriosam! Et, corrupti impedit! Autem, optio impedit consectetur alias? Aliquid minus magni, vero, nihil ducimus odio laborum inventore ipsam necessitatibus doloremque, commodi. Repellendus, facere quas harum nesciunt dolor saepe ad tempora facilis ab suscipit impedit placeat sit, rerum nobis, amet tenetur in deserunt architecto voluptas quibusdam ipsam laborum adipisci. Expedita rerum perferendis quibusdam animi, accusamus dolorum nostrum dolor est velit, eum sapiente atque porro aperiam voluptates ipsum earum autem obcaecati inventore recusandae beatae aspernatur, accusantium delectus. Error fuga eveniet officia quod. Dicta temporibus eos totam. At, aspernatur magnam tenetur ab quam. Modi enim quis earum, consequuntur ratione repudiandae sequi minus officiis iure ut, quibusdam ea fuga? Ad veritatis possimus natus autem temporibus voluptatum quis blanditiis deserunt, dolorum quaerat voluptatibus sint officia, inventore dolor consequatur sequi beatae necessitatibus repudiandae voluptates repellendus molestiae? Quae ad minus dolorum, maiores, officia reiciendis deserunt aut consectetur nemo, accusamus, impedit. At, porro distinctio quidem magni in vel. Incidunt voluptatem ea ad illum quae, similique aperiam libero adipisci fuga qui laborum quia praesentium illo consectetur ex facere minima sit alias maiores porro quos! Hic quos rerum, sit, culpa distinctio inventore officiis omnis ab pariatur quam minima blanditiis maxime odio velit dignissimos consequuntur. Illum, labore neque assumenda culpa odit vero expedita placeat molestiae deleniti nesciunt ab aspernatur, veritatis laboriosam perferendis. Impedit, dolorem et quaerat, est officiis dolores iusto qui, sunt non architecto quidem asperiores quae, officia voluptates nesciunt voluptatem incidunt! Error quia, nostrum expedita laboriosam adipisci laudantium maxime voluptatem quae odio harum voluptatum, magni rem, in illum perspiciatis? Nihil excepturi accusamus voluptate doloremque perspiciatis et fuga itaque rerum vero, voluptas dolore officia incidunt architecto, est quis, a hic similique maxime numquam, voluptatibus illo obcaecati libero inventore. Itaque iusto nulla debitis illum. Ipsum aperiam ipsa veritatis, obcaecati sequi maxime veniam minima possimus hic, iure quasi impedit nemo molestiae. Id odio cupiditate vel natus hic rem et repellat consectetur saepe! Repellat sint, optio reiciendis consequatur necessitatibus repellendus tempora voluptatum quaerat cupiditate ea debitis minus, rerum enim neque voluptatem commodi maxime facere iusto quam, deserunt vitae cum consectetur. Maxime quia asperiores adipisci corporis officia? Nostrum dolorum ratione placeat earum quo? Perspiciatis id nostrum excepturi quibusdam nesciunt, ea, beatae nemo voluptas est eveniet neque reprehenderit modi ab, adipisci corrupti, animi molestiae. Quaerat expedita provident consectetur, nisi totam iusto qui pariatur aspernatur culpa! Quibusdam incidunt, necessitatibus. Suscipit nostrum odio odit deserunt, alias aliquid molestiae provident debitis minima quibusdam, ullam, laudantium eaque rem dolor quis ipsa, inventore recusandae. Nam eveniet labore minus ut porro, delectus aliquid illum, temporibus obcaecati esse quis dolore incidunt voluptatem nostrum numquam eius quaerat, debitis hic earum voluptate ex iste nulla ea vel deleniti. Voluptatem odio animi, laborum repellendus facere temporibus dolore excepturi aspernatur sequi distinctio ab recusandae voluptatibus molestiae fugiat natus atque impedit quod perspiciatis quam dignissimos doloribus est vitae commodi quas modi. Sed beatae enim quasi harum ut! Nihil sint ea excepturi quidem pariatur fugit eaque incidunt. Harum quisquam aut adipisci.</p>
+
+       </div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+  <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+     </div>
+   </div>
+ </div>
+  <br><br>
+
+
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examp1">
+  Launch demo modal
+</button>
+
+<!-- Modal 2 copy-->
+<div class="modal fade" id="examp1" tabindex="-1" aria-labelledby="label1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="label1">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <br><br>
+  <!-- Button tricky modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Woohoo, you're reading this text in a modal!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!-- navs tabs custom-->
+<!--
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation"></li>
+  <a class="nav-link" id="home-tab" data-bs-toggle="tab" href="#home"role="tab" aria-controls="home" aria-selected="true">Home</a>
+
+  <li class="nav-item" role="presentation"></li>
+  <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabcontent">
+  
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+
+<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+</div>
+
+</div>
+  </div>
+</div>
+-->
+<br><br>
+<!-- nav& tabs-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      
+ 
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+</div>
+
+   </div>
+  </div>
+</div>
+<br><br>
+<!-- navs &tab with pills-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+</div>
+
+</div>
+  </div>
+</div>
+<!-- navs &tab with pills end-->
+<br><br>
+
+<!-- navs &tab with vertical pills start-->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+
+  <div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+    <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+
+    <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+
+    <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+
+    <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+
+    <a class="nav-link" id="v-pills-number-tab" data-bs-toggle="pill" href="#v-pills-number" role="tab" aria-controls="v-pills-number" aria-selected="false" >Number</a>
+  </div>
+
+
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel.</div>
+
+    <div class="tab-pane fade" id="v-pills-number" role="tabpanel" aria-labelledby="v-pills-number-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel.</div>
+  </div>
+</div>
+
+   </div>
+  </div>
+</div>
+
+
+<!-- navs &tab with vertical pills  end-->
+
+<br><br>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+ 
+        
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5" aria-controls="navbar5" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <span class="navbar-toggler-icon"></span>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbar5">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#"> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">link</a>
+      </li>
+      <li class="nav-item dropdwon">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdwon"role="button" data-bs-toggle="dropdwon" aria-expanded="false"> Dropdwon</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+      <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+ <!--  Bootstrap JS link -->
+
+     <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  
+  </body>
+</html>
